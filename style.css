@@ -1,0 +1,10 @@
+.nav-item:hover .nav-link{
+    color: red;
+}
+
+
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
