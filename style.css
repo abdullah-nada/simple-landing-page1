@@ -1,10 +1,115 @@
-.nav-item:hover .nav-link{
-    color: red;
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+.bg-white {
+  background:#e9ecef !important;
+  transition: 1s ease-in;
+}
+
+.bg-white.scrolled {
+  background:#fff !important;
 }
 
 
+.background{
+     background-color: #c7cbd1;
+}
+
+.mainbackground{
+     background-color: #E9EDF3;
+}
+
+.nav-item:hover .nav-link{
+    color:#0d6efd;
+}
 
 .nav-link{
     font-size: 18px;
     font-weight: 500;
+    color:#101112;
+}
+
+.main-subtitle{
+    font-size: 24px; 
+    color: #7153d9;
+     font-weight: 500;
+}
+
+.main-title{
+    font-size: 72px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+    text-transform: lowercase;
+}
+
+.main-p{
+ font-size: 24px;
+ font-weight: 400;
+ color: #545454;
+}
+
+.main-btn{
+    text-decoration: none;
+   
+    border-radius: 27px;
+    padding: 20px 45px;
+    color: white;
+}
+
+
+.feature-icons{
+    background-color:#f2f5fb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 95px;
+}
+
+.sub-service{
+    font-size: large;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+.service-title{
+    font-size: 50px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+
+
+.my_card{
+    background-color: white;
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    border-radius: 20px;
+}
+
+.my_card p{
+    font-size: 18px;
+}
+
+.readlink{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 18px;
+    margin-right: 120px;
+}
+
+.readlink:hover{
+   color: #715cbe;
+   margin-left: 10px;
 }
